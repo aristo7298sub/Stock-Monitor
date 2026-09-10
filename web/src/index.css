@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap');
+
+:root {
+  font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  color: #526a70;
+  background: #f6fafa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --font-display: 'Noto Serif SC', 'STSong', serif;
+  --font-mono: 'IBM Plex Mono', Consolas, monospace;
+  --dark: #29424b;
+  --body: #526a70;
+  --muted: #91a4a9;
+  --mist: #639aa7;
+  --mist-deep: #477f8c;
+  --sky-soft: #e5f0f2;
+  --sage: #99afa4;
+  --dawn: #f2c48d;
+  --paper: #f6fafa;
+  --paper-blue: #f0f6f7;
+  --line: #dce7e7;
+  --line-soft: #eaf0f0;
+  --success: #6f9c85;
+  --success-deep: #527c68;
+  --danger: #c96f78;
+}
+
+* { box-sizing: border-box; }
+html, body { min-width: 0; min-height: 100%; margin: 0; }
+body { min-height: 100vh; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--mist); outline-offset: 2px; }
+::selection { color: var(--dark); background: rgba(242,196,141,.55); }
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-thumb { background: #b7c7c9; border-radius: 7px; }
